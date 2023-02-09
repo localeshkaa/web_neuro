@@ -18,4 +18,7 @@ from neuro import views
 urlpatterns = [
     path('', views.home),
     path('password', views.password),
+    path('neuro-interface', views.neuro),
+    path('model', views.shablon)
+
 ]

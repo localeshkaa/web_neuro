@@ -8,3 +8,12 @@ def home(request):
 
 def password(request):
     return render(request, 'web_interface/password.html')
+
+def neuro(request):
+    return render(request, 'web_interface/neuro-interface.html')
+
+def shablon(request):
+    return render(request, 'web_interface/model.html')
+
+
+

@@ -16,9 +16,11 @@ Including another URLconf
 from django.urls import path
 from neuro import views
 urlpatterns = [
-    path('', views.home),
+    path('home', views.home),
     path('password', views.password),
     path('neuro-interface', views.neuro),
-    path('model', views.shablon)
+    path('model', views.shablon),
+    path('graphs', views.graphs),
+    path('test', views.test)
 
 ]
